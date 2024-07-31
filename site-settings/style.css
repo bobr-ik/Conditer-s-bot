@@ -48,3 +48,14 @@ header{
     }
 }
 
+@media (max-width: 900px) {
+    .header-text{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 700px){
+    .header-text{
+        font-size: 0.8rem;
+    }
+}
