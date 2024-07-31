@@ -48,10 +48,17 @@ header{
     }
 }
 
+.buttons{
+    text-align: center;
+}
+
 .btn{
     width: 100%;
-    max-width: 200px;
+    
+    max-width: 300px;
+    margin: 20px;
 }
+
 
 @media (max-width: 900px) {
     .header-text{

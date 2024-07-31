@@ -1,9 +1,13 @@
 var tg = window.Telegram.WebApp;
-function cliick(num){
+var num = new Object()
+
+function send(){
     console.log(num);
-    send = {
-        'num': num
-    }
     tg.sendData(JSON.stringify(num));
     tg.close();
+}
+
+function cliick(newnum){
+    num[Object.keys(num).length] = newnum
+    console.log(num)
 }
