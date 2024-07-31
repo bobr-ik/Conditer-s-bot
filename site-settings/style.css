@@ -48,6 +48,11 @@ header{
     }
 }
 
+.btn{
+    width: 100%;
+    max-width: 200px;
+}
+
 @media (max-width: 900px) {
     .header-text{
         font-size: 1rem;
